@@ -34,3 +34,8 @@ As a client
 I want to deposit money into my Account
 so that I can manage my money.
 ```
+```
+As a client
+I want to withdraw money from my Account
+so that I can spend it.
+```

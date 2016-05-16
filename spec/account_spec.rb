@@ -17,5 +17,13 @@ describe Account do
     end
   end
 
+  describe '#withdrawal' do
+    it 'report a balance of -£500 after a withdrawal of £500' do
+      account.withdrawal(500)
+      expect(account.balance).to eq -500
+    end
+  end
+
+
 
 end
