@@ -27,3 +27,10 @@ date || credit || debit || balance
 
 * Statement filters (just deposits, withdrawals, date ascending, date descending)
 * Graphical interface
+
+### User stories
+```
+As a client
+I want to deposit money into my Account
+so that I can manage my money.
+```
