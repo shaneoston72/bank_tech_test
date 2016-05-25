@@ -2,10 +2,10 @@ require_relative '../lib/transaction'
 
 describe Transaction do
 
-  let(:amount) { double :amount }
   date = Time.now.strftime('%d/%m/%Y')
+  let(:amount) { double :amount }
   let(:type) { double :type }
-  subject(:transaction) { described_class.new(amount, type) }
+  subject(:transaction) { described_class.new(type, amount) }
 
   describe '#initialize' do
     it 'initializes with amount' do
